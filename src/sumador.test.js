@@ -1,7 +1,8 @@
 import sumar from "./sumador.js";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+const frac = new sumar();
+describe("Fraccionar", () => {
+  it("1.Recibir un monto y devolverlo", () => {
+    expect(fraccionar(5)).toEqual(5);
   });
 });

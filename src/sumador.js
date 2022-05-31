@@ -1,5 +1,9 @@
-function cambio(a, b) {
-  return a - b;
+class sumar{
+  cambio(a, b) {
+  return  b-a;
 }
-
-export default cambio;
+  fraccionar(billete){
+    return billete;
+  }
+}
+export default sumar;

@@ -1,5 +1,6 @@
-import cambio from "./sumador";
+import sumar from "./sumador";
 
+const num = new sumar();
 const Monto = document.querySelector("#venta");
 const efectivo = document.querySelector("#montEfectivo");
 const form = document.querySelector("#cambio-form");
@@ -11,5 +12,5 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number.parseInt(Monto.value);
   const secondNumber = Number.parseInt(efectivo.value);
 
-  div.innerHTML = "<p>" + cambio(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + num.cambio(firstNumber, secondNumber) + "</p>";
 });
