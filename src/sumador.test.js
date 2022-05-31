@@ -11,4 +11,11 @@ describe("Fraccionar", () => {
   it("3.Recibir un monto de 12 y devolvera 5,5,2,", () => {
     expect(frac.fraccionar(12)).toEqual("5,5,2,");
   });
+  it("4.Recibir un monto de 14 y devolvera 5,5,2,2,", () => {
+    expect(frac.fraccionar(14)).toEqual("5,5,2,2,");
+  });
+  it("5.Recibir un monto de 17 y devolvera 5,5,2,2,2,1", () => {
+    expect(frac.fraccionar(17)).toEqual("5,5,2,2,1");
+  });
 });
+

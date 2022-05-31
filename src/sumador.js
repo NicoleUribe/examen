@@ -12,6 +12,10 @@ class sumar{
       monedas=monedas+"2,";
       billete=billete-2;
     }
+    while(billete>=1){
+      monedas=monedas+"1,";
+      billete=billete-1;
+    }
     return monedas;
   }
 }
