@@ -1,7 +1,7 @@
 class sumar{
-  cambio(a, b) {
+ /* cambio(a, b) {
   return  b-a;
-}
+}*/
   fraccionar(billete){
     var monedas="";
     while(billete>=5){
