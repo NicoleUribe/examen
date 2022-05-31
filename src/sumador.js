@@ -3,7 +3,12 @@ class sumar{
   return  b-a;
 }
   fraccionar(billete){
-    return billete;
+    var monedas="";
+    while(billete>=5){
+      monedas=monedas+"5,"
+      billete=billete-5;
+    }
+    return monedas;
   }
 }
 export default sumar;
